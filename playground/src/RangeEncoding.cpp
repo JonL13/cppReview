@@ -12,14 +12,14 @@ using namespace std;
 
 class RangeEncoding{
   public:
-	  int minRanges(vector <int> arr);
+    int minRanges(vector <int> arr);
 };
 
 int RangeEncoding::minRanges(vector <int> arr){
   int numMinRanges = 0;
   int currentVal = -1;
   for(size_t i = 0; i < arr.size(); i++){
-    printf("i: %zu, arr[i]: %d, currentVal: %d\n", i, arr[i], currentVal);
+    //printf("i: %zu, arr[i]: %d, currentVal: %d\n", i, arr[i], currentVal);
     if(arr[i] != currentVal + 1){
       numMinRanges++;
     }
