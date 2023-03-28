@@ -5,7 +5,7 @@
 
 class Tic_Tac_Toe
 {
-public:
+	public:
     Tic_Tac_Toe();                    /* Constructor */
     void Clear_Game();                /* Turn the current board into an empty board */
     char Game_State() const;          /* Return the state of the game:
